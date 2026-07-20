@@ -1962,6 +1962,20 @@ summary:focus-visible {
     margin-left: 0;
   }
 
+  .hero-video {
+    object-fit: cover;
+    object-position: right center;
+  }
+
+  .hero-bg {
+    background: linear-gradient(
+      180deg,
+      rgba(31, 2, 48, 0.42) 0%,
+      rgba(31, 2, 48, 0.28) 45%,
+      rgba(31, 2, 48, 0.58) 100%
+    );
+  }
+
   .plus-grid { grid-template-columns: 1fr; }
   .plus-preco .plano-preco { justify-content: center; }
   .plus-info { text-align: center; }
